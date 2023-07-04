@@ -240,7 +240,7 @@ function App() {
     <div>
       <Banner />
       <Formulario
-      cadastrarTime={cadastrarTime}
+        cadastrarTime={cadastrarTime}
         times={times.map(time => time.nome)} 
         aoCadastrar={colaborador => setColaboradores([...colaboradores, colaborador])} 
       />
