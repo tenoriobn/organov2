@@ -1,4 +1,4 @@
-import './Botao.css'
+import './botao.css'
 
 const Botao = ({texto}) => {
     return <button className="botao">
